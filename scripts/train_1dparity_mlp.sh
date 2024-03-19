@@ -1,0 +1,1 @@
+srun -J parity -N 1 -p RTX3090 --gres gpu:1 python main_1d.py --model mlp --bs 128 --see_every 1000 --save_every 100000 --width 256 --size 112  --name mlp_parity8_w256_r1.0
